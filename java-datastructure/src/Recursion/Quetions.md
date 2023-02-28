@@ -29,4 +29,12 @@
 # 9. Print keypad combinations
 `time complexity O(4^n)`
 
+# 10. Print all premutation of a string [Backtracking]
+`time complexity O(n!)`
+
+# 11. Count total paths in a maze to move from a (0,0) to (n,m) [backtracking]
+
+# 12. place a tile of a size 1xm in a floor of size nxm
+
+
 
