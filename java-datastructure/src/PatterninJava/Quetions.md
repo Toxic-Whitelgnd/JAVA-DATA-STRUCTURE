@@ -38,10 +38,15 @@
 `12345`
 
 ## 7. print the inverted half pyrmaid with numbers
-`12345`\n
+`12345`
 `1234`
 `123`
 `12`
 `1`
 
 ## 8. Print the Floy Triangle
+`1`
+`2 3`
+`4 5 6`
+`7 8 9 10`
+`11 12 13 14 15`
