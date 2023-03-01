@@ -1,5 +1,7 @@
 package Recursion;
 
+import java.util.ArrayList;
+
 public class AdvancedRec {
 
     // ans 10
@@ -32,12 +34,56 @@ public class AdvancedRec {
         return downpath+leftpath;
     }
 
+    // ans 13
+    public static int CallGuests(int n){
+
+        if(n <= 1){
+            return 1;
+        }
+
+        int way1 = CallGuests(n-1);
+
+        int way2 = (n-1)*CallGuests(n-2);
+
+        return way1+way2;
+    }
+
+    // ans 14
+    public static void printsub(ArrayList<Integer> sub){
+        for(int i=0;i<sub.size();i++){
+            System.out.print(sub.get(i));
+        }
+        System.out.println();
+    }
+
+    public static void PrintSubset(int n,ArrayList<Integer> subset){
+        
+        if(n == 0){
+            printsub(subset);
+            return;
+        }
+
+        subset.add(n);
+        PrintSubset(n-1, subset);
+
+        subset.remove(subset.size()-1);
+        PrintSubset(n-1, subset);
+
+    }
+
     public static void main(String[] args) {
         String str = "abc";
         PrintPermutation(str, "");
 
         int n=3,m = 3;
         System.out.println(TotalPathMAze(1, 1, n, m));
+
+        int n1 = 4;
+        System.out.println(CallGuests(n1));
+
+        int n2 = 3;
+        ArrayList<Integer> subset = new ArrayList<Integer>();
+        PrintSubset(n2, subset);
         
     }
 }

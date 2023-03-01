@@ -34,7 +34,8 @@
 
 # 11. Count total paths in a maze to move from a (0,0) to (n,m) [backtracking]
 
-# 12. place a tile of a size 1xm in a floor of size nxm
+# 12. place a tile of a size 1xm in a floor of size nxm 
+skipped
 
-
+# 13. Find the number of ways in which you can invite n people to your party, single or in pairs
 
