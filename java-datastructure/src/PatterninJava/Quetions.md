@@ -50,3 +50,47 @@
 `4 5 6`
 `7 8 9 10`
 `11 12 13 14 15`
+
+## 9. print the 10 pattern
+`1`
+`0 1`
+`1 0 1`
+`0 1 0 1`
+`1 0 1 0 1`
+
+## 10. Print the butterfly pattern 
+`*      *`
+`**    **`
+`***  ***`
+`********`
+`********`
+`***  ***`
+`**    **`
+`*      *`
+
+## 11. Print the solid rhombus
+`    *****`
+`   *****`
+`  *****`
+` *****`
+`*****`
+
+## 12. print the number pyramid
+`   1   `
+` 2   2  `
+`3  3   3 `
+
+## 13. Prtint he plandrome numbers pyramid
+`  1  `
+` 212 `
+`32123`
+
+## 14. print the Diamond pattern
+`  *  `
+` *** `
+`*****`
+`*****`
+` *** `
+`  *  `
+
+
