@@ -48,7 +48,7 @@ public class bits {
             int notbitmask3 = ~(bitmask3);
             int newnumber4 = notbitmask3 & n3;
             System.out.println(newnumber4);
-        }
+        }  
 
     }
 }
